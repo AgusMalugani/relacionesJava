@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Relaciones/src/relaciones/ej1.java</file>
-            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Relaciones/src/Entidad/ej1_Persona.java</file>
-            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Relaciones/src/Entidad/ej1_Perro.java</file>
-            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Relaciones/src/Servicio/ej1_PersonaServicio.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Relaciones/src/Servicio/ej5_CineServicio.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Relaciones/src/Entidad/ej5_Cine.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Relaciones/src/Entidad/ej5_Espectador.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Relaciones/src/relaciones/ej5.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/Relaciones/src/Entidad/ej5_Pelicula.java</file>
         </group>
     </open-files>
 </project-private>
