@@ -13,6 +13,18 @@ public class ej5_Espectador {
     private String nombre;
     private int edad;
     private int dineroDisp;
+    private int posicionSala;   // le creo un atributo, para guardar la posicion de su asiento en el cine.
+
+    public int getPosicionSala() {
+        return posicionSala;
+    }
+
+    public void setPosicionSala(int posicionSala) {
+        this.posicionSala = posicionSala;
+    }
+    
+    
+    
 
     public ej5_Espectador() {
     }
@@ -49,9 +61,10 @@ public class ej5_Espectador {
 
     @Override
     public String toString() {
-        return "ej5_Espectador{" + "nombre=" + nombre + ", edad=" + edad + ", dineroDisp=" + dineroDisp + '}';
+        return "ej5_Espectador{" + "nombre=" + nombre + ", edad=" + edad + ", dineroDisp=" + dineroDisp + ", posicionSala=" + posicionSala + '}';
     }
-    
+
+   
     
     
     

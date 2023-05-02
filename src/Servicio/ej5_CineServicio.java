@@ -89,24 +89,37 @@ ocupado se muestra una X, sino un espacio vacío.
     }
     
     
-    public void salaOcupada(String[][] sala){
+    public void salaOcupada(String[][] sala, ej5_Cine cine){
         
-                System.out.println("POSICION");
-       int posRand = leer.nextInt();
-       
+                System.out.println("Tenemos un total de " + cine.getEspectadorList().size() + " entradas vendidas");
+                // ahora tenemos que traer a cada persona y asignarle un lugar de la sala
+                for (ej5_Espectador persona : cine.getEspectadorList()) {
+                    persona.setPosicionSala((int) (Math.random()*48+1));
 
-        System.out.println("muestra sala");
-         int cont = 0;
+                            int cont = 0;
         for (int i = 7; i >= 0; i--) { // filas  numeros
             for (int j = 0; j < 6; j++) { // columnas letra
                 
                 cont++; // con el cont le puedo definir una posicion
-               if(cont == posRand){
+               if(cont == persona.getPosicionSala()){
                    sala[i][j] = "X";
                } 
+                            
+            }
+     
+        } 
+                    
+        }
+                
+               
+       
+
+        System.out.println("muestra sala");
+        
+        for (int i = 7; i >= 0; i--) { // filas  numeros
+            for (int j = 0; j < 6; j++) { // columnas letra
+
                 System.out.print(sala[i][j] + " " + " | " + " " );
-           
-                 
                 
             }
             System.out.println("");

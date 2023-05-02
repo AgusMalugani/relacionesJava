@@ -38,8 +38,8 @@ public class ej5 {
   // una vez cargados los datos del cine, con su peli, y personas. y creada la sala
   // debemos hacer que cada persona ocupe un lugar de la sala.
   
-     cs.salaOcupada(sala);
-      
+     cs.salaOcupada(sala, cine);
+        System.out.println(cine.toString());
       
       
       
